@@ -1,0 +1,4 @@
+	Comando DROP = Excluir
+	
+DROP TABLE nome_da_tabela (cuidado se a tabela tiver dado, você perde todos os dados).
+	Caso a tabela esteja em relacionamento com outra tabela, talvez seja necessário excluir os relacionamentos para excluisão da tabela.

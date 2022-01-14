@@ -1,0 +1,6 @@
+﻿  Exercicio 31.cpp
+E:\PASTA C\Exercicio 31\Exercicio 31\Exercicio 31.cpp(14,22): warning C4244: '=': conversão de 'wint_t' para 'char', possível perda de dados
+E:\PASTA C\Exercicio 31\Exercicio 31\Exercicio 31.cpp(7,6): warning C4101: 'numero': variável local não referenciada
+E:\PASTA C\Exercicio 31\Exercicio 31\Exercicio 31.cpp(8,8): warning C4101: 'media': variável local não referenciada
+  LINK : E:\PASTA C\Exercicio 31\Debug\Exercicio 31.exe não encontrado ou não compilado pelo o último link incremental; executando link completo
+  Exercicio 31.vcxproj -> E:\PASTA C\Exercicio 31\Debug\Exercicio 31.exe

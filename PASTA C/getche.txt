@@ -1,0 +1,14 @@
+﻿"ConsoleApplication1.exe" (Win32): Carregado "C:\Users\leand\OneDrive\Documentos\C\ConsoleApplication1\Debug\ConsoleApplication1.exe". Símbolos carregados.
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\ntdll.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\kernel32.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\KernelBase.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\msvcp140d.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\vcruntime140d.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\ucrtbased.dll". 
+O thread 0x6a00 foi fechado com o código 0 (0x0).
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\kernel.appcore.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\msvcrt.dll". 
+"ConsoleApplication1.exe" (Win32): Carregado "C:\Windows\SysWOW64\rpcrt4.dll". 
+O thread 0x60b8 foi fechado com o código 0 (0x0).
+O thread 0x5f94 foi fechado com o código 0 (0x0).
+O programa "[20548] ConsoleApplication1.exe" foi fechado com o código 0 (0x0).

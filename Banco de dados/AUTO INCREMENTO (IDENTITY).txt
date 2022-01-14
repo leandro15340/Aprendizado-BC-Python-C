@@ -1,0 +1,33 @@
+	O Auto incremento permite que um numero unico seja gerado quando um novo
+registro é inserido em uma tabela.
+
+	EM SQL SERVER, trata-se da palavra chave IDENTITY (Identidade) cujo o valor 
+inicial padrão é 1, e se incrementa em 1.
+
+	Para que o valor de IDENTITY Inicie 100 e se incremente de 2 em 2, use se
+incremento(100,2)
+
+	Ao inserir valores na tabela, nao é necessário espeficicar o valor para a coluna
+auto-incremento
+
+	Não é possivel alterar uma coluna existente para configurar IDENTITY
+
+	Só é permitido usar uma coluna identidade por tabela.
+
+EX:
+
+Create TABLE tbl_teste_identidade
+
+(	ID_Teste SMALLINT PRIMARY KEY IDENTITY,
+	valor SMALLINT NOT NULL,
+)
+
+INSERT INTO tbl_teste_identidade(valor) VALUES (10)
+INSERT INTO tbl_teste_identidade(valor) VALUES (20)
+INSERT INTO tbl_teste_identidade(valor) VALUES (30)
+INSERT INTO tbl_teste_identidade(valor) VALUES (40)
+
+
+SELECT * FROM tbl_teste_identidade
+
+Os dados na coluna valor foram inseridos.

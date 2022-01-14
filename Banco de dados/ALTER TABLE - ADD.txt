@@ -1,0 +1,12 @@
+	Adicionar uma coluna
+	
+	Alter table tbl_Livro
+	ADD ID_Autor SMALLINT NOT NULL
+	CONSTRAINT fk_ID_Autor FOREIGN KEY(ID_Autor) REFERENCES tbl_Autores
+
+	Adicionar outra coluna:
+
+	Alter table tbl_Livro
+	ADD ID_Editora SMALLINT NOT NULL,
+	CONSTRAINT Fk_id_editora FOREIGN KEY (ID_editora) REFERENCES tbl_Editoras
+

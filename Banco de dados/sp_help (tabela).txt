@@ -1,0 +1,2 @@
+Informa os índices, as chaves e campos, atributos, tipos de atributos de uma tabela
+(stored procedures, comando pré-programados)

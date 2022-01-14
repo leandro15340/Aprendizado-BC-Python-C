@@ -1,0 +1,8 @@
+	Adicionar uma chave primária, caso você crie uma tabela e esqueceu de configurar a chave primaria, conseguimos acrescentar:
+
+	ALTER TABLE Clientes
+	ADD PRIMARY KEY (ID_Cliente)
+
+	Obs: A coluna ID_Cliente deve existir antes de ser transformada em chave primária
+	A Coluna ID_Cliente receberá a constraint "PRIMARY KEY", e Passará a ser chave primária da tabela!
+

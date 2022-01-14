@@ -1,0 +1,14 @@
+	É Possivel alterar a estrutura de uma tabela após ter sido criada, acrescentando ou excluindo atributos (campos)
+
+	" ALTER TABLE tbl_Livro
+	" DROP CLOLUMN ID_Autor  
+
+	Pode-se excluir uma constraint 
+	" ALTER TABLE (tabela)
+	" DROP CONSTRAINT nome_contraint
+
+	DROP Exclui uma coluna especifica de uma tabela.
+	
+
+
+	

@@ -1,0 +1,35 @@
+	Inserir dados em uma tabela:
+
+	Comando: INSERT INTO nome_da_tabela (coluna1, coluna2,....) Values (valor1, Valor2,..)
+	se configuramos uma das colunas como " not null " é obrigatório ter o dado.
+	
+	Coluna1  = especificar a coluna que precisam de dados
+	Coluna2 = especificar a coluna que precisam de dados
+
+	VALUES = VALORES
+
+	(Valor1 inserido na coluna1)
+	(Valor2 inserido na coluna2)
+
+	=========================================================================================
+
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor , SobreNome_Autor) 
+			VALUES  (  1     , " Daniel"  , "Barret"       )
+	=========================================================================================
+
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor, SobreNome_Autor) VALUES  (1, 'Daniel' ,'Barret')
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor, SobreNome_Autor) VALUES  (2, 'Gerald' ,'Carter')
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor, SobreNome_Autor) VALUES  (3, 'Mark'   ,'Sobell')	
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor, SobreNome_Autor) VALUES  (4, 'William','Stanek')
+	INSERT INTO tbl_Autores (ID_Autor, Nome_Autor, SobreNome_Autor) VALUES  (5, 'Richard','Blum'  )
+
+	INSERT INTO tbl_Editoras (Nome_Editora) Values ('Prentice hall')
+	INSERT INTO tbl_Editoras (Nome_Editora) Values ('o Reilly')
+	INSERT INTO tbl_Editoras (Nome_Editora) Values ('Microsoft press')
+	INSERT INTO tbl_Editoras (Nome_Editora) Values ('Wiley')
+
+	INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) Values (Linux Command Line and shell Scripting,'143856969','20091221', 68.35,5,4)
+
+	INSERT INTO tbl_Livro (Nome_Livro, ISBN, Data_Pub, Preco_Livro, ID_Autor, ID_Editora) Values (SSH,'the secure shell', 127658789,'20091221',58.30.1,2)
+	
+	INSERT INTO tbl_Livro (Nome_Livro

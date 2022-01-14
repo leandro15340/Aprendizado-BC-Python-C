@@ -1,0 +1,8 @@
+	Alterar uma coluna
+
+	ALTER TABLE tbl_Livro
+	ALTER COLUMN ID_Autor SMALLINT
+
+	(para alterar uma coluna, não é possivel alterar após a inserção de dados)
+
+	
